@@ -1,0 +1,2 @@
+export const SET_MAIN_STATE =  'SET_MAIN_STATE';
+export const RESET_MAIN_STATE =  'RESET_MAIN_STATE';

@@ -1,0 +1,31 @@
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #EEEEEE;
+    background-image: url('http://localhost:3000/images/bg1.png');
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: 150% top;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #585453;
+    font-family: Rubik;
+    font-weight: normal;
+
+    @media (max-width: 756px) {
+        .px-xs-15px { padding: 15px !important; }
+        .px-xs-20px { padding: 20px !important; }
+        .px-xs-40px { padding: 40px !important; }
+    }
+    @media (min-width: 757px) {
+        .mt-md-14px { margin-top: 14px !important; }
+        .mt-md-16px { margin-top: 16px !important; }
+    }
+
+}
